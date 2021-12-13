@@ -340,7 +340,7 @@ export default class RegionsPlugin {
 
             region = null;
         };
-        this.wrapper.addEventListener('mouseleave', eventUp);
+        // this.wrapper.addEventListener('mouseleave', eventUp);
         this.wrapper.addEventListener('mouseup', eventUp);
         this.wrapper.addEventListener('touchend', eventUp);
 
